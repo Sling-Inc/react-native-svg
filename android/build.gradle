@@ -80,7 +80,7 @@ def getFrescoVersion() {
 }
 
 android {
-    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    compileSdkVersion safeExtGet('compileSdkVersion', 30)
     def agpVersion = com.android.Version.ANDROID_GRADLE_PLUGIN_VERSION
     if (agpVersion.tokenize('.')[0].toInteger() >= 7) {
         namespace "com.horcrux.svg"
